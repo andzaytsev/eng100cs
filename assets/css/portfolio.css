@@ -57,7 +57,10 @@ a:visited{color:black !important;}
 
 .body-center p {
 	float:left;
-	
+}
+
+#intro-text {
+	width: 500px;
 }
 
 #profile-picture
