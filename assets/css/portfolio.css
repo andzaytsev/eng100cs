@@ -1,15 +1,33 @@
 @charset "utf-8";
 
-a{color:0x0000FF !important;}
+/*a{color:0x0000FF !important;}
 a:hover{color:0xFF3300 !important;}
-a:visited{color:0xFFCCCC !important;}
+a:visited{color:0xFFCCCC !important;}*/
+
+a{color:black !important;}
+a:hover{color:black !important;}
+a:visited{color:black !important;}
 
 .navbar
 {
-	float:left;
 	padding:5px;
 	margin-top:20px;
-	display:block;
+	display:inline-block;
+	position: relative;
+	margin-left: 200px;
+	border: solid 1px black;
+	border-radius:10px;
+
+}
+
+.navbar a {
+	text-decoration: none;
+	padding:10px;
+	margin: 0px;
+}
+
+.navbar a:hover {
+	background-color: #F0F0F0;
 }
 
 .clearfix
@@ -37,7 +55,14 @@ a:visited{color:0xFFCCCC !important;}
 	margin-right: auto ;
 }
 
+.body-center p {
+	float:left;
+	
+}
+
 #profile-picture
 {
-	margin-left: 20px;
+	float:right;
+	width:200px;
+	border-radius: 100%;
 }
