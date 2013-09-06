@@ -69,3 +69,7 @@ a:visited{color:black !important;}
 	width:200px;
 	border-radius: 100%;
 }
+
+.projects {
+	width: 700px;
+}
