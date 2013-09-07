@@ -22,13 +22,18 @@ a:visited{color:black !important;}
 	border: solid 1px black;
 	border-radius:10px;
 	background-color: #B8B8B8;
-
+	overflow: hidden;
+	white-space: nowrap;
 }
 
 .navbar a {
 	text-decoration: none;
-	padding:10px;
-	margin: 0px;
+	padding: 10px;
+	margin-left: -6px;
+}
+
+.navbar a:last-child {
+	margin-right: -6px;
 }
 
 .navbar a:hover {
