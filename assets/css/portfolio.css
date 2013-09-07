@@ -8,6 +8,10 @@ a{color:black !important;}
 a:hover{color:black !important;}
 a:visited{color:black !important;}
 
+/** {
+	border: black solid 1px;
+}*/
+
 .navbar
 {
 	padding:5px;
@@ -17,6 +21,7 @@ a:visited{color:black !important;}
 	margin-left: 200px;
 	border: solid 1px black;
 	border-radius:10px;
+	background-color: #B8B8B8;
 
 }
 
@@ -50,26 +55,45 @@ a:visited{color:black !important;}
 
 .body-center
 {
-	width: 700px ;
-	margin-left: auto ;
-	margin-right: auto ;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #E6E6E6;
+	border-radius: 10px;
 }
 
-.body-center p {
-	float:left;
-}
-
-#intro-text {
-	width: 500px;
+.intro-text {
+	width: 400px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 0px;
 }
 
 #profile-picture
 {
-	float:right;
 	width:200px;
+	margin-left: 20px;
 	border-radius: 100%;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 30px;
+}
+
+.headline {
+	margin-left: 15px;
+	font-family: Ubuntu, Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .projects {
-	width: 700px;
+	width: 680px;
+	margin-left: 10px;
+}
+
+#weather {
+	display:inline-block;
+}
+
+#MTD {
+	display:inline-block;
+	vertical-align: top;
 }
