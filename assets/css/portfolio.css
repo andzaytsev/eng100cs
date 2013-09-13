@@ -8,10 +8,6 @@ a{color:black !important;}
 a:hover{color:black !important;}
 a:visited{color:black !important;}
 
-/** {
-	border: black solid 1px;
-}*/
-
 .navbar
 {
 	padding:5px;
@@ -101,4 +97,23 @@ a:visited{color:black !important;}
 #MTD {
 	display:inline-block;
 	vertical-align: top;
+}
+
+#output {
+	
+}
+
+#widgets {
+	display: inline-block;
+	width: 300px;
+}
+
+#buses {
+	display: inline-block;
+	width: 300px;
+	vertical-align: top;
+}
+
+#ttable td{
+	border: 1px black solid;
 }
